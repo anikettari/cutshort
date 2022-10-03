@@ -1,0 +1,139 @@
+$themeColor: #654de4;
+
+.body {
+  font-family: "Inter", sans-serif;
+}
+.no_margin{
+  margin-top: 0px;
+}
+.margin_right{
+  margin-right: 20px;
+}
+.margin_left{
+  margin-left: 20px;
+}
+.prefix_width{
+  width: 100%;
+}
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon {
+  background-color: $themeColor !important;
+  border: none;
+}
+
+.ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title::after {
+  background-color: $themeColor !important;
+  height: 3px;
+}
+
+.margin_top {
+  margin-top: 50px;
+}
+
+.title_bold {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.desc_text {
+  font-size: 16px;
+  margin-top: 0px;
+}
+.text_middle {
+  text-align: center;
+}
+.form_title_text {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.myImage {
+  float: left;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  float: right;
+}
+
+.border_active {
+  border: 2px solid $themeColor;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.border_not_active {
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.icon_active {
+  color: $themeColor !important;
+  font-size: 40px;
+}
+.icon_not_active {
+  color: black;
+  font-size: 40px;
+}
+
+.card_text {
+  font-size: 15px;
+  font-weight: 800;
+}
+.text_color {
+  color: #7f7f7f !important;
+}
+
+.btn_color {
+  color: white !important;
+  background-color: $themeColor !important;
+  border-radius: 5px !important;
+}
+.card_bottom_margin {
+  margin-bottom: 20px;
+}
+
+//media queries
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .title_bold {
+    font-size: 25px;
+  }
+  .desc_text {
+    font-size: 12px;
+  }
+  .form_title_text {
+    font-size: 12px;
+  }
+  .myImage {
+    height: 45px;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+  .title_bold {
+    font-size: 24px;
+  }
+  .desc_text {
+    font-size: 10px;
+  }
+  .myImage {
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .title_bold {
+    font-size: 21px;
+  }
+  .form_title_text {
+    font-size: 10px;
+  }
+  .myImage {
+    height: 35px;
+  }
+ 
+}
